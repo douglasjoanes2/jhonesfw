@@ -1,0 +1,44 @@
+{% extends "_layout.html" %}
+
+{% block content %}
+	<div class="py-5">
+		<div class="content">
+			<div class="mx-auto p-5 bg-white" style="max-width: 430px">
+				<form action="" method="post" class="mx-auto">
+					<div class="text-center mb-4">
+						<h4 class="fw-bolder">Crie sua conta</h4>
+						<p>Cadastre-se rapidamente para ter acesso ao conteúdo.</p>
+					</div>
+					<div class="mb-3">
+						<label for="name" class="form-label">Nome completo <span>*</span></label>
+						<input type="text" name="name" id="name" class="form-control">
+					</div>
+					<div class="mb-3">
+						<label for="email" class="form-label">E-mail <span>*</span></label>
+						<input type="email" name="email" id="email" class="form-control">
+					</div>
+					<div class="mb-3">
+						<a href="#" class="reveal float-end">mostrar senha</a>
+						<label for="passwd" class="form-label">Senha <span>*</span></label>
+						<input type="password" name="passwd" id="passwd" class="form-control pwd">
+					</div>
+					<div class="mb-3 d-grid">
+						<button type="submit" class="btn btn-primary px-3 py-2">Cadastrar</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		$(".reveal").mousedown(function() {
+			$(".pwd").replaceWith($('.pwd').clone().attr('type', 'text'));
+		})
+		.mouseup(function() {
+			$(".pwd").replaceWith($('.pwd').clone().attr('type', 'password'));
+		})
+		.mouseout(function() {
+			$(".pwd").replaceWith($('.pwd').clone().attr('type', 'password'));
+		});
+	</script>
+{% endblock %}

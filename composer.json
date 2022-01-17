@@ -1,0 +1,29 @@
+{
+    "name": "dougl/jhones_fw",
+    "description": "Estrutura base para meus projetos",
+    "type": "project",
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "twig/twig": "^3.3",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Douglas S. Joanes",
+            "email": "douglasjoanes2@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "optimize-autoloader": true
+    }
+}
