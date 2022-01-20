@@ -109,7 +109,7 @@ class App
     public function run()
     {
         $this->RoutesProvider();
-
+        
         if (!$this->dispath()) {
             header("location: " . $this->router->generate("error", ["code" => $this->error]));
             exit;

@@ -49,10 +49,10 @@ class __TwigTemplate_e079f1da12db3c9e2087c7eff0c5c4d1a9c0bf24e2ac2fb268dc8d81050
         // line 4
         echo "\t<div class=\"py-5\">
 \t\t<div class=\"content\">
-\t\t\t<div class=\"mx-auto p-5 bg-white\" style=\"max-width: 430px\">
+\t\t\t<div class=\"mx-auto bg-white p-4\" style=\"max-width: 24.5rem;\">
 \t\t\t\t<form action=\"\" method=\"post\" class=\"mx-auto\">
 \t\t\t\t\t<div class=\"text-center mb-4\">
-\t\t\t\t\t\t<h4 class=\"fw-bolder\">Crie sua conta</h4>
+\t\t\t\t\t\t<h3 class=\"fw-bolder\">Crie sua conta</h3>
 \t\t\t\t\t\t<p>Cadastre-se rapidamente para ter acesso ao conteúdo.</p>
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"mb-3\">
@@ -69,7 +69,7 @@ class __TwigTemplate_e079f1da12db3c9e2087c7eff0c5c4d1a9c0bf24e2ac2fb268dc8d81050
 \t\t\t\t\t\t<input type=\"password\" name=\"passwd\" id=\"passwd\" class=\"form-control pwd\">
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"mb-3 d-grid\">
-\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-primary px-3 py-2\">Cadastrar</button>
+\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-primary\">Cadastrar</button>
 \t\t\t\t\t</div>
 \t\t\t\t</form>
 \t\t\t</div>

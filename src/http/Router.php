@@ -83,7 +83,7 @@ class Router extends AltoRouter
 
         if (isset($attributes) && is_array($attributes)) {
             if (isset($attributes["prefix"])) {
-                $route = "/" . trim($attributes["prefix"], "/") . $route;
+                $route = "/" . trim($attributes["prefix"], "/") . "/" . trim($route, "/");
             }
 
             if (!empty($name) && isset($attributes["as"])) {

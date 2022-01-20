@@ -49,10 +49,10 @@ class __TwigTemplate_d2af1dd017a7700bdbad26df2d03939212f19e2e0610a2a0d22923c7eef
         // line 4
         echo "\t<div class=\"py-5\">
 \t\t<div class=\"content px-5\">
-\t\t\t<div class=\"mx-auto p-5 bg-white\" style=\"max-width: 430px\">
+\t\t\t<div class=\"mx-auto bg-white p-4\" style=\"max-width: 24.5rem;\">
 \t\t\t\t<form action=\"\" method=\"post\">
 \t\t\t\t\t<div class=\"text-center mb-4\">
-\t\t\t\t\t\t<h4 class=\"fw-bolder\">Acesse sua conta</h4>
+\t\t\t\t\t\t<h3 class=\"fw-bolder\">Acesse sua conta</h3>
 \t\t\t\t\t\t<p>Olá! Identifique-se para acessar sua conta.</p>
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"mb-3\">
@@ -71,7 +71,7 @@ class __TwigTemplate_d2af1dd017a7700bdbad26df2d03939212f19e2e0610a2a0d22923c7eef
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"mb-3 d-grid\">
-\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-primary px-3 py-2\">Entrar</button>
+\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-primary\">Entrar</button>
 \t\t\t\t\t</div>
 \t\t\t\t</form>
 \t\t\t</div>

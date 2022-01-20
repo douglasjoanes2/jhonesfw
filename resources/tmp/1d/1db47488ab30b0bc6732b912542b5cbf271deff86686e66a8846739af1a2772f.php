@@ -37,56 +37,64 @@ class __TwigTemplate_2d85b3ed6c5b34aa9478d541544a36710211f8f5312a623bdc4ecb24e72
         echo "<!DOCTYPE html>
 <html lang=\"pt-br\">
 
-<head>
-    <meta charset=\"UTF-8\">
-    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
-    <title>Document</title>
-    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">
-    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\">
-    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css\">
-    <link rel=\"stylesheet\" href=\"/assets/css/main.css\">
-    <script src=\"/assets/js/jquery.js\"></script>
-</head>
+\t<head>
+\t\t<meta charset=\"UTF-8\">
+\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
+\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+\t\t<title>Document</title>
+\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">
+\t\t<!-- styles -->
+\t\t<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css\">
+\t\t<link rel=\"stylesheet\" href=\"/assets/css/bootstrap.css\">
+\t\t<link rel=\"stylesheet\" href=\"/assets/css/main.css\">
+\t\t<!-- scripts -->
+\t\t<script src=\"/assets/js/jquery.min.js\"></script>
+\t\t<script src=\"/assets/js/pace.min.js\"></script>
+\t</head>
 
-<body class=\"loading\">
-<div class=\"ajax_load\"></div>
+\t<body class=\"loading\">
+\t\t<div class=\"ajax_load\"></div>
 
-    <!-- navbar -->
-    <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
-        <div class=\"container px-5\">
-            <a class=\"navbar-brand\" href=\"/\">Jhones Framework</a>
-            <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\"
-                data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\"
-                aria-label=\"Toggle navigation\"><span class=\"navbar-toggler-icon\"></span></button>
-            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
-                <ul class=\"navbar-nav ms-auto mb-2 mb-lg-0\">
-                    <li class=\"nav-item\"><a class=\"nav-link\" href=\"/login\">Login</a></li>
-                    <li class=\"nav-item\"><a class=\"nav-link\" href=\"/register\">Cadastro</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- end navbar -->
+\t\t<!-- navbar -->
+\t\t<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
+\t\t\t<div class=\"container px-5\">
+\t\t\t\t<a class=\"navbar-brand\" href=\"/\">Jhones Framework</a>
+\t\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+\t\t\t\t\t<span class=\"navbar-toggler-icon\"></span>
+\t\t\t\t</button>
+\t\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
+\t\t\t\t\t<ul class=\"navbar-nav ms-auto mb-2 mb-lg-0\">
+\t\t\t\t\t\t<li class=\"nav-item\">
+\t\t\t\t\t\t\t<a class=\"nav-link\" href=\"/auth/login\">Login</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t\t<li class=\"nav-item\">
+\t\t\t\t\t\t\t<a class=\"nav-link\" href=\"/auth/register\">Cadastro</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t</ul>
+\t\t\t\t</div>
+\t\t\t</div>
+\t\t</nav>
+\t\t<!-- end navbar -->
 
-    ";
-        // line 36
+\t\t";
+        // line 43
         $this->displayBlock("content", $context, $blocks);
         echo "
 
-    <!-- footer -->
-    <footer class=\"py-5\">
-        <div class=\"container px-5\">
-            <p class=\"m-0\">&copy; Copyright 2022 - Desenvolvido por: Douglas S Joanes</p>
-        </div>
-    </footer>
-    <!-- end footer -->
+\t\t<!-- footer -->
+\t\t<footer class=\"py-5\">
+\t\t\t<div class=\"container px-5\">
+\t\t\t\t<p class=\"m-0\">&copy; Copyright 2022 - Desenvolvido por: Douglas S Joanes</p>
+\t\t\t</div>
+\t\t</footer>
+\t\t<!-- end footer -->
 
-    <!-- scripts -->
-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\"></script>
-</body>
+\t\t<!-- scripts -->
+\t\t<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\"></script>
+\t</body>
 
-</html>";
+</html>
+";
     }
 
     public function getTemplateName()
@@ -101,7 +109,7 @@ class __TwigTemplate_2d85b3ed6c5b34aa9478d541544a36710211f8f5312a623bdc4ecb24e72
 
     public function getDebugInfo()
     {
-        return array (  74 => 36,  37 => 1,);
+        return array (  81 => 43,  37 => 1,);
     }
 
     public function getSourceContext()

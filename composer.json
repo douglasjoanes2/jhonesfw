@@ -5,7 +5,8 @@
     "require": {
         "altorouter/altorouter": "^2.0",
         "twig/twig": "^3.3",
-        "vlucas/phpdotenv": "^5.4"
+        "vlucas/phpdotenv": "^5.4",
+        "twbs/bootstrap": "^5.1"
     },
     "license": "MIT",
     "autoload": {

@@ -87,7 +87,7 @@ class Response
     /**
      * Envia a resposta para o usuário.
      *
-     * @return void
+     * @return mixed
      */
     public function sendResponse()
     {

@@ -1,0 +1,23 @@
+{% extends "_layout.html" %}
+
+{% block content %}
+	<div class="py-5">
+		<div class="content px-5">
+			<div class="mx-auto bg-white p-4" style="max-width: 24.5rem;">
+				<form action="" method="post">
+					<div class="text-center mb-4">
+						<h4 style="fw-bolder">Recuperar senha</h4>
+						<p>Informe o seu e-mail utilizado no cadastro, que enviaremos um link de recuperação.</p>
+					</div>
+					<div class="mb-3">
+						<label for="email" class="form-label">E-mail <span>*</span></label>
+						<input type="email" name="email" id="email" class="form-control">
+					</div>
+					<div class="mb-3 d-grid">
+						<button type="submit" class="btn btn-primary">Enviar</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+{% endblock %}

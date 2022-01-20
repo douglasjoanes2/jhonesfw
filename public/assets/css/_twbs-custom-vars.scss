@@ -1,0 +1,17 @@
+/* Colors */
+
+$custom-primary: #D38C88;
+
+$theme-colors: map-merge(
+    $theme-colors, (
+        "jfw-primary": $custom-primary
+    )
+);
+
+/* Forms */
+
+//$form-label-font-size: .85rem;
+//$form-label-font-weight: 600;
+
+//$input-bg: $gray-100;
+//$input-border-color: $gray-300;

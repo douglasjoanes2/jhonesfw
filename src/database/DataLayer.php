@@ -107,6 +107,16 @@ class DataLayer
     {
         return $this->data;
     }
+    
+    /**
+     * Retorna o nome da tabela em uso.
+     *
+     * @return string
+     */
+    public function entity()
+    {
+        return $this->entity;
+    }
 
     /**
      * Retorna todos os registros da tabela.
@@ -115,7 +125,7 @@ class DataLayer
      */
     public function findAll()
     {
-        $res = $this->read("SELECT * FROM {$this->getEntity}");
+        $res = $this->read("SELECT * FROM {$this->entity()}");
         if (!$res) {
             return null;
         }
@@ -130,7 +140,7 @@ class DataLayer
      */
     public function findByPrimaryKey($primaryKey)
     {
-        $res = $this->read("SELECT * FROM {$this->getEntity} WHERE {$this->primaryKey}=? LIMIT 1", [$primaryKey], false);
+        $res = $this->read("SELECT * FROM {$this->entity()} WHERE {$this->primaryKey}=? LIMIT 1", [$primaryKey], false);
         if (!$res) {
             return null;
         }

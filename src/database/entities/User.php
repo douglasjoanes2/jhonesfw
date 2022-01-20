@@ -14,7 +14,7 @@ class User extends DataLayer
 
     public function findByEmail()
     {
-        $res = $this->read("SELECT * FROM {$this->entity} WHERE email=? LIMIT 1", [$this->email], false);
+        $res = $this->read("SELECT * FROM {$this->entity()} WHERE email=? LIMIT 1", [$this->email], false);
         if (!$res) {
             return "";
         }
